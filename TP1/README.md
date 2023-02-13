@@ -1,6 +1,6 @@
 # TP 
 
-TP1.1 : 
+TP1.1 : A program that makes a led blink (PORT 1.0).
 
 TP1.2 : A program that turns on the LED(PORT1.0) when the button (PORT1.1) is pressed.
 
