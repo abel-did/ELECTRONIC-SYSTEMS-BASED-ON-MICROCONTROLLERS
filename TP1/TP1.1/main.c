@@ -1,9 +1,8 @@
 /*
- * main.c
- *
- *  Created on: 8 févr. 2023
- *  Author: Abel DID
- */
+ * Author : Abel DIDOUH
+ * Date 13 / 02 /2023
+ * Description : A program that makes a led blink (PORT 1.0).
+**/
 
 #include <stdint.h>
 
