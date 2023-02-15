@@ -8,4 +8,4 @@ TP1.3 : A program that turns on the LED(PORT1.0) when the button P1.1 (PORT1.1) 
 
 TP1.4 : A program that turns on the LED(PORT2.2) when the button P1.4 (PORT1.4) is not pressed.
 
-A program that turns on the BLUE LED(PORT2.2) when the button P1.4 (PORT1.4) is not pressed else turns on the GREEN LED(PORT2.1).
+TP1.5 : A program that turns on the BLUE LED(PORT2.2) when the button P1.4 (PORT1.4) is not pressed else turns on the GREEN LED(PORT2.1).
