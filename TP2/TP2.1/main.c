@@ -49,14 +49,30 @@ int main()
     //Extinction LEDR
     *P1_OUT &= ~ LEDR_mask;
 
+    int valeurBT1_avant = !(*P1_IN & BT1_mask);
+    int valeurBT1_actuelle = 0;
+
     while(1)
     {
 
-        if( !(*P1_IN & (1 << BT1)) )
+        //Detection front descendant
+
+        valeurBT1_actuelle = !(*P1_IN & BT1_mask);
+
+
+
+
+        if(valeurBT1_actuelle == 0)
         {
-            *P1_OUT ^= LEDR_mask;
+            if(valeurBT1_avant == 1)
+            {
+                *P1_OUT ^= LEDR_mask;
+            }
         }
+        valeurBT1_avant = valeurBT1_actuelle;
+
     }
 
     return 0;
 }
+
