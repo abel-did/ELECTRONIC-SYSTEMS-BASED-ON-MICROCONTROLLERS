@@ -1,0 +1,1 @@
+"./ige3016_lib.obj" "./startup_msp432p401r_ccs.obj" "./system_msp432p401r.obj" "./tp3_1.obj" "../msp432p401r.cmd" -llibc.a 
